@@ -1,0 +1,95 @@
+<html>
+<head>
+	<title> Culture Project </title>
+	<link rel="stylesheet" type="text/css" href="stylesheet/index.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet/color.css">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!--button menu-->
+<div id="menu">
+	<form method = "get" action="about.html">
+		<button type="submit"> About Project </button>
+	</form>
+	<div class="dropdown">
+		<button class="dropbtn" onclick="drop()"> Holiday 
+		<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content" id="myDropdown">
+			<a href="spring.html"> Spring Festival </a>
+			<a href="qixi.html"> Qixi Festival </a>
+			<a href="ghost.html"> Ghost Festival </a>
+			<a href="double9.html"> Double Ninth Festival </a>
+			<a href="qingming.html"> Qingming Festival </a>
+		</div>
+	</div>
+	<div id="title">
+	<form id="title_button" method = "get" action="index.html">
+		<button type="submit"> China </button>
+	</form>
+	</div>
+	<form method = "get" action="color.html">
+		<button type="submit"> Color </button>
+	</form>
+	<form method = "get" action="myth.html">
+		<button type="submit"> Mythology </button>
+	</form>
+</div>
+<div id="title_name">
+<h1> Colors and the Five Elements
+</h1>
+</div>
+<div id="color_text">
+	<center>
+	<p id="overview">
+		Chinese philosphy described the five elements as the fundamental elements of everything in the universe between which all things interact with. These elements create and cancel each other out in various ways. 
+	</p>
+	<p>
+		<h2>Red (Fire) </h2>
+		Red symbolizes luck, happiness, and joy. It represents summer season. The color is also used to ward off evil.
+	</p>
+	<p>
+		<h2>Yellow (Earth) </h2>
+		Imperial color representing power, royalty, and prosperity in traditional Chinese color. Representing late summer and central direction.
+		<br></br>
+		Note: Do not wear too much yellow unless you wanna look like a adult actor or royalty.
+	</p>
+	<p>
+		<h2>Black (Water) </h2>
+		The color black represents destruction, evil, profoundity, disasters, cruelty, sadness and suffering.<br></br>
+		Black also represents bad luck and irregularity, and illegality.
+	</p>
+	<p>
+		<h2>White (Metal) </h2>
+		Symbolizes purity. Associated with death and the color worn at funerals.
+	</p>
+	<p>
+		<h2>Blue (Wood) </h2>
+		Represents spring, immortality, and advancement.
+	</p>
+	<p>
+		<h2>Green </h2>
+		Associated with health, prosperity, and harmony. Green represents pure and clean. Interchangeable with Blue <br></br>
+		Note:
+		Green hats are associated with infidelity and as an idiom for a <i>cuckold</i>
+		Buildings, banks and restaurants are often painted in green. Packaging is often in green to indicate their product is contamination free, mainly for food.
+	</p>
+	</center>
+</div>
+<script>
+//user clicks the button and taggles the hiding and showing
+function drop(){
+	document.getElementById("myDropdown").classList.toggle("show");
+}
+//close the dropdown if the user clicks outside of it
+window.onclick = function(e){
+	if(!e.target.matches('.dropbtn')){
+		var myDropdown=document.getElementById("myDropdown");
+		if(myDropdown.classList.contains('show')){
+			myDropdown.classList.remove('show');
+		}
+	}
+}
+</script>
+</body>
+</html>
