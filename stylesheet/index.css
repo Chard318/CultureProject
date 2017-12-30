@@ -75,6 +75,7 @@ button:hover{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
+	width:15%;
     min-width: 160px;
 	font-family:"Arial";
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -100,18 +101,28 @@ button:hover{
 #right{
 	position:fixed;
 	float:right;
-	height:100%;
-	width:15%;
+	height:90%;
+	width:20%;
 	right:0%;
 	top:10%;
-	background-color:blue;
+	background-color:black;
+	text-align:center;
+	font-size:1em;
+	font-family:"Arial", sans-serif;
+	overflow:scroll;
+}
+#intro{
+	padding:10px;
+}
+#additions{
+	text-align:left;
 }
 #center{
 	position:fixed;
 	float:left;
 	height:100%;
-	width:70%;
-	left:15%;
+	width:80%;
+	left:0%;
 	top:10%;
 	background-color:red;
 	margin:0px;
@@ -125,4 +136,5 @@ button:hover{
 	left:0%;
 	background-color:green;
 	margin:0px;
+	text-align:center;
 }
