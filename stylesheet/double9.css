@@ -13,11 +13,53 @@ body{
 	height:90%;
 	z-index:-1;
 }
+#picture2{
+	float:left;
+	position:relative;
+	top:0%;
+	height:auto;
+	width:80%;
+	left:10%;
+	border-radius:5px;
+}
+#picture3{
+	float:left;
+	position:relative;
+	top:0%;
+	height:auto;
+	width:80%;
+	left:10%;
+	border-radius:5px;
+}
+#img_space{
+	float:left;
+	position:fixed;
+	top:10%;
+	width:100%;
+	height:90%;
+	z-index:-1;
+}
+#sidebar{
+	float:left;
+	position:fixed;
+	top:10%;
+	left:0%;
+	width:25%;
+	height:90%;
+	background-color:black;
+}
+#menu_button{
+	background-color:transparent;
+	width:100%;
+	height:10%;
+	border-color:white;
+}
 #body_space{
 	float:right;
 	position:fixed;
 	top:10%;
-	width:100%;
+	left:25%;
+	width:75%;
 	height:90%;
 	overflow:scroll;
 }
@@ -31,7 +73,33 @@ body{
 	opacity:0.9;
 	border-radius:15px;
 }
+#header{
+	text-align:center;
+	color:blue;
+}
+#story{
+	float:left;
+	position:relative;
+	top:2%;
+	left:5%;
+	width:60%;
+	background-color:white;
+	opacity:0.9;
+	border-radius:15px;
+}
+#section3{
+	float:left;
+	position:relative;
+	top:8%;
+	left:10%;
+	width:80%;
+	background-color:white;
+	opacity:0.9;
+	border-radius:15px;
+}
 #text{
+	float:left;
+	position:relative;
 	margin:10px;
 	color:blue;
 }
